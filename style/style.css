@@ -1,8 +1,9 @@
 table{
     border-collapse: collapse;
     margin-bottom: 50px;
+    margin-left: 280px;
 }
-td{
+td,th{
     border: 1px solid black;
     padding: 8px;
     font-size: 20px;
@@ -12,9 +13,11 @@ td{
 .dark{
     background-color: rgb(153, 153, 216);
 }
+
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 .first-table{
     margin-top: 50px;
@@ -26,7 +29,7 @@ td{
 }
 .code{
     border: 1px solid green;
-    padding: 20px;
+    padding: 32px;
 }
 .black{
     background-color: black;
@@ -35,9 +38,20 @@ td{
     background-color: white;
 }
 .chess{
-    margin-left: 140px;
+    margin-left: 10px;
     margin-top: 200px;
 }
 thead{
     border: 1px solid green;
+}
+caption {
+    color: tomato;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: tomato;
+    font-size: 34px;
+    font-weight: bolder;
 }
