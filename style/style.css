@@ -1,7 +1,7 @@
 table{
     border-collapse: collapse;
     margin-bottom: 50px;
-    margin-left: 280px;
+    margin: 0 auto;
 }
 td,th{
     border: 1px solid black;
@@ -21,7 +21,6 @@ td,th{
 }
 .first-table{
     margin-top: 50px;
-    margin-left: 100px;
 }
 .title{
     margin: 40px;
@@ -38,16 +37,21 @@ td,th{
     background-color: white;
 }
 .chess{
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 thead{
     border: 1px solid green;
 }
-caption {
+caption ,p{
     color: tomato;
     font-size: 25px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .title{
